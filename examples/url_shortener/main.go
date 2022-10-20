@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"os"
 
+	log "github.com/inconshreveable/log15"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/log/log15adapter"
 	"github.com/jackc/pgx/v4/pgxpool"
-	log "gopkg.in/inconshreveable/log15.v2"
 )
 
 var db *pgxpool.Pool
